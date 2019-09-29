@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ComponenteLogico is
+	port(
+		Ai, Bi: in std_logic;
+		Mi, S1i, S0i: in std_logic;
+		Xi, Yi: out std_logic
+	);
+end ComponenteLogico;
+
+architecture arch of ComponenteLogico is
+begin
+	Xi <= (not S1)and(Ai and Bi or Ai and S0) or Ai and (not Bi) and S1i or Mi and (not Ai) and Bi and S1i and (not S0i) or Mi and (not Bi) and S1i and S0i or Mi and Bi and (not S1i) and S0i or (not Mi) and Ai;
+	Yi <= (not Mi) and Bi and (not S1i) and (not S0i) or (not Mi) and (not Bi) and (not S1i) and S0i;
+
+end ComponenteLogico;

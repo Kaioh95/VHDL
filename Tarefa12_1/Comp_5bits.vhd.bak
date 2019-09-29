@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Comp_5bits is
+	port(
+		a, b: in std_logic_vector (4 downto 0);
+		x, y, z: out std_logic
+	);
+end Comp_5bits;
+
+architecture comps of Comp_5bits is
+
+component Comp_1bit is
+	port(
+		
+	);

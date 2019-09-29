@@ -1,0 +1,53 @@
+# do Comp_5bits.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:13:23 on Sep 05,2019
+# vcom -work work Comp_5bits.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity Comp_5bits
+# -- Compiling architecture structure of Comp_5bits
+# End time: 18:13:23 on Sep 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:13:23 on Sep 05,2019
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Comp_5bits_vhd_vec_tst
+# -- Compiling architecture Comp_5bits_arch of Comp_5bits_vhd_vec_tst
+# End time: 18:13:24 on Sep 05,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -sdfmax Comp_5bits_vhd_vec_tst/i1=Comp_5bits_vhd.sdo -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Comp_5bits_vhd_vec_tst 
+# Start time: 18:13:24 on Sep 05,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.comp_5bits_vhd_vec_tst(comp_5bits_arch)
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.comp_5bits(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from Comp_5bits_vhd.sdo
+# Loading timing data from Comp_5bits_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /comp_5bits_vhd_vec_tst File: Waveform.vwf.vht
+# after#33
+# End time: 18:13:26 on Sep 05,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

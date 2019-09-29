@@ -1,0 +1,17 @@
+|Comp_1bit
+ia => oa.IN1
+i => oa.IN0
+i => ob.IN0
+i => o.IN1
+ib => ob.IN1
+a => oa.IN1
+a => o.IN0
+a => ob.IN1
+b => ob.IN1
+b => o.IN1
+b => oa.IN1
+oa <= oa.DB_MAX_OUTPUT_PORT_TYPE
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+ob <= ob.DB_MAX_OUTPUT_PORT_TYPE
+
+

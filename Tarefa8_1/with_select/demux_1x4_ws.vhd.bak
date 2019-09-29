@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity demux_1x4_ws is 
+	port(
+		a: in std_logic;
+		s0, s1: in std_logic;
+		o0, o1, o2, o3: out std_logic
+	);
+
+end demux_1x4_ws;
+
+architecture arch of demux_1x4_ws is
+	begin
+		with (s0) select
+			o0 <= a when '0'[and s1='0'],
+					'0' when others;
+			o1 <= a when '0'[and s1='1'],
+					'0' when others;
+			o2 <= a when '1'[and s1='0'],
+					'0' when others;
+			o3 <= a when '1'[and s1='1'],
+					'0' when others;
+			
+	end arch;

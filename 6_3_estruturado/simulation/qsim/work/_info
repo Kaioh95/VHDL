@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/6_3_estruturado/simulation/qsim
+Ecircuito
+Z1 w1566606118
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8circuito.vho
+Z9 Fcircuito.vho
+l0
+L77
+V1JXibZHU@`>7Ai:Kcl]VN3
+!s100 zFYEDOZae_C8PB::ZnQXP0
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1566606119
+!i10b 1
+Z12 !s108 1566606119.000000
+Z13 !s90 -work|work|circuito.vho|
+Z14 !s107 circuito.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 circuito 0 22 1JXibZHU@`>7Ai:Kcl]VN3
+l124
+L95
+V<S8jaGX4:>;>CBbD:9>z60
+!s100 <gzQ@:AjW91i9oYS1K<hE2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecircuito_vhd_vec_tst
+Z17 w1566606116
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+V^z<V3a[cVL0Z26:^A[9o[3
+!s100 IQjQOWGTYM4RCkg2OCh5Y3
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Acircuito_arch
+R5
+R6
+Z22 DEx4 work 20 circuito_vhd_vec_tst 0 22 ^z<V3a[cVL0Z26:^A[9o[3
+l50
+L33
+VK5O8>kPR<jWQ=NGW8dIBc0
+!s100 V[KA3VNg97>0F7WIiWTlY1
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

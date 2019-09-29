@@ -1,0 +1,64 @@
+|somador_4bits
+a[0] => HA:i0.a
+a[1] => FA:i1.a
+a[2] => FA:i2.a
+a[3] => FA:i3.a
+b[0] => HA:i0.b
+b[1] => FA:i1.b
+b[2] => FA:i2.b
+b[3] => FA:i3.b
+s[0] <= HA:i0.s
+s[1] <= FA:i1.s
+s[2] <= FA:i2.s
+s[3] <= FA:i3.s
+cout <= FA:i3.cout
+
+
+|somador_4bits|HA:i0
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|FA:i1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|FA:i2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|FA:i3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa6_3/circuito.vhd
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa6_3/Waveform.vwf
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa6_3/db/circuito.cbx.xml
+design_name = hard_block
+design_name = circuito
+instance = comp, \x~output\, x~output, circuito, 1
+instance = comp, \b~input\, b~input, circuito, 1
+instance = comp, \c~input\, c~input, circuito, 1
+instance = comp, \a~input\, a~input, circuito, 1
+instance = comp, \x~0\, x~0, circuito, 1
+instance = comp, \d~input\, d~input, circuito, 1

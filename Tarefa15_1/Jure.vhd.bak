@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Jure is
+	port(
+		j0, j1, j2, j3: in std_logic;
+		VD, VM: out std_logic
+	);
+end Jure;
+
+architecture arch of Jure is
+begin
+	VD <= (j0 and j1) or (j0 and j2) or (j0 and j3) or (j2 and j1) or (j2 and j3) or (j1 and j3);
+	VM <= (j0 nand j1) or (j0 nand j2) or (j0 nand j3) or (j2 nand j1) or (j2 nand j3) or (j1 nand j3);
+end arch;

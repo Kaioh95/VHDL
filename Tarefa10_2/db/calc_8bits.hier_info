@@ -1,0 +1,145 @@
+|calc_8bits
+a[0] => FA:i0.a
+a[1] => FA:i1.a
+a[2] => FA:i2.a
+a[3] => FA:i3.a
+a[4] => FA:i4.a
+a[5] => FA:i5.a
+a[6] => FA:i6.a
+a[7] => FA:i7.a
+b[0] => comb.IN0
+b[1] => comb.IN0
+b[2] => comb.IN0
+b[3] => comb.IN0
+b[4] => comb.IN0
+b[5] => comb.IN0
+b[6] => comb.IN0
+b[7] => comb.IN0
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => comb.IN1
+op => FA:i0.cin
+op => luz2.DATAIN
+op => luz1.DATAIN
+s[0] << FA:i0.s
+s[1] << FA:i1.s
+s[2] << FA:i2.s
+s[3] << FA:i3.s
+s[4] << FA:i4.s
+s[5] << FA:i5.s
+s[6] << FA:i6.s
+s[7] << FA:i7.s
+luz1 << op.DB_MAX_OUTPUT_PORT_TYPE
+luz2 << op.DB_MAX_OUTPUT_PORT_TYPE
+cout << FA:i7.cout
+
+
+|calc_8bits|FA:i0
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i1
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i2
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i3
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i4
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i5
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i6
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calc_8bits|FA:i7
+a => s.IN0
+a => cout.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ex2 is
+port(
+	a: in std_logic_vector(0 to 3);
+	b: in std_logic_vector(3 downto 0);
+	c: out std_logic_vector(7 downto 0)
+	);
+end ex2;
+
+architecture arc of ex2 is
+begin
+
+	c(3 downto 0) <= b(3 downto 0);
+	c(4) <= a(0);
+	c(5) <= a(1);
+	c(6) <= a(2);
+	c(7) <= a(3);
+
+end arc;

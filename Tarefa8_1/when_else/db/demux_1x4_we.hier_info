@@ -1,0 +1,19 @@
+|demux_1x4_we
+a => o0.DATAB
+a => o1.DATAB
+a => o2.DATAB
+a => o3.DATAB
+s0 => o2.IN0
+s0 => o3.IN0
+s0 => o0.IN0
+s0 => o1.IN0
+s1 => o1.IN1
+s1 => o3.IN1
+s1 => o0.IN1
+s1 => o2.IN1
+o0 <= o0.DB_MAX_OUTPUT_PORT_TYPE
+o1 <= o1.DB_MAX_OUTPUT_PORT_TYPE
+o2 <= o2.DB_MAX_OUTPUT_PORT_TYPE
+o3 <= o3.DB_MAX_OUTPUT_PORT_TYPE
+
+

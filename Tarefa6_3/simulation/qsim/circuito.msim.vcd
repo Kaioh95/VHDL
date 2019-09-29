@@ -1,0 +1,310 @@
+$comment
+	File created using the following command:
+		vcd file circuito.msim.vcd -direction
+$end
+$date
+	Fri Aug 23 21:17:44 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module circuito_vhd_vec_tst $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # c $end
+$var wire 1 $ d $end
+$var wire 1 % x $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var wire 1 ) devoe $end
+$var wire 1 * devclrn $end
+$var wire 1 + devpor $end
+$var wire 1 , ww_devoe $end
+$var wire 1 - ww_devclrn $end
+$var wire 1 . ww_devpor $end
+$var wire 1 / ww_a $end
+$var wire 1 0 ww_b $end
+$var wire 1 1 ww_c $end
+$var wire 1 2 ww_d $end
+$var wire 1 3 ww_x $end
+$var wire 1 4 \d~input_o\ $end
+$var wire 1 5 \x~output_o\ $end
+$var wire 1 6 \b~input_o\ $end
+$var wire 1 7 \c~input_o\ $end
+$var wire 1 8 \a~input_o\ $end
+$var wire 1 9 \x~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+04
+05
+x6
+x7
+x8
+x9
+$end
+#786
+07
+#796
+06
+08
+#3283
+x5
+x3
+x%
+#4251
+19
+#7534
+15
+13
+1%
+#50000
+1!
+1/
+#50690
+18
+#100000
+0!
+1"
+0/
+10
+#100690
+16
+#100796
+08
+#150000
+1!
+1/
+#150690
+18
+#200000
+0!
+0"
+1#
+0/
+00
+11
+#200680
+17
+#200796
+06
+08
+#203937
+09
+#204289
+19
+#207185
+05
+03
+0%
+#207572
+15
+13
+1%
+#250000
+1!
+1/
+#250690
+18
+#300000
+0!
+1"
+0/
+10
+#300690
+16
+#300796
+08
+#303937
+09
+#307185
+05
+03
+0%
+#350000
+1!
+1/
+#350690
+18
+#353596
+19
+#356879
+15
+13
+1%
+#400000
+0!
+0"
+0#
+1$
+0/
+00
+01
+12
+14
+#400786
+07
+#400796
+06
+08
+#403937
+09
+#404251
+19
+#407185
+05
+03
+0%
+#407534
+15
+13
+1%
+#450000
+1!
+1/
+#450690
+18
+#500000
+0!
+1"
+0/
+10
+#500690
+16
+#500796
+08
+#550000
+1!
+1/
+#550690
+18
+#600000
+0!
+0"
+1#
+0/
+00
+11
+#600680
+17
+#600796
+06
+08
+#603937
+09
+#604289
+19
+#607185
+05
+03
+0%
+#607572
+15
+13
+1%
+#650000
+1!
+1/
+#650690
+18
+#700000
+0!
+1"
+0/
+10
+#700690
+16
+#700796
+08
+#703937
+09
+#707185
+05
+03
+0%
+#750000
+1!
+1/
+#750690
+18
+#753596
+19
+#756879
+15
+13
+1%
+#800000
+0!
+0"
+0#
+0$
+0/
+00
+01
+02
+04
+#800786
+07
+#800796
+06
+08
+#803937
+09
+#804251
+19
+#807185
+05
+03
+0%
+#807534
+15
+13
+1%
+#850000
+1!
+1/
+#850690
+18
+#900000
+0!
+1"
+0/
+10
+#900690
+16
+#900796
+08
+#950000
+1!
+1/
+#950690
+18
+#1000000

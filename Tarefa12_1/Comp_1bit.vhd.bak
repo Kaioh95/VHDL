@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Comp_1bit is
+	port(
+		a, b: in std_logic;
+		i>, i=, i<: in std_logic;
+		o>, o=, o<: out std_logic;
+	);
+end Comp_1bit;
+
+architecture comp of Comp_1bit is
+begin
+	o> <= i> or (i= and a and (not b));
+	o< <= i< or (i= and (not a) and b);
+	o= <= i= and (a xnor b);
+end comp;

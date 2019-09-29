@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic.1166.all;
+
+entity b is
+	port( x: inout std_logic_vector (7 downto 0) );
+end b;
+
+architecture arc of b is
+	
+	subtype byte is std_logic_vector (7 downto 0);
+	
+	variable x_byte: byte;
+	variable y_byte: out std_logic_vector (7 downto 0);
+	
+	begin
+	
+	end arc;

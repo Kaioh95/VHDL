@@ -1,0 +1,29 @@
+|Jure
+j0 => VD.IN0
+j0 => VD.IN0
+j0 => VD.IN0
+j0 => VM.IN0
+j0 => VM.IN0
+j0 => VM.IN0
+j1 => VD.IN1
+j1 => VD.IN0
+j1 => VD.IN0
+j1 => VM.IN1
+j1 => VM.IN0
+j1 => VM.IN0
+j2 => VD.IN1
+j2 => VD.IN1
+j2 => VD.IN0
+j2 => VM.IN1
+j2 => VM.IN1
+j2 => VM.IN0
+j3 => VD.IN1
+j3 => VD.IN1
+j3 => VD.IN1
+j3 => VM.IN1
+j3 => VM.IN1
+j3 => VM.IN1
+VD <= VD.DB_MAX_OUTPUT_PORT_TYPE
+VM <= VM.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Aug 25 14:07:36 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : demux_1x4_c
+Top-level Entity Name : demux_1x4_c
+Family : Cyclone IV E
+Total logic elements : 4
+    Total combinational functions : 4
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

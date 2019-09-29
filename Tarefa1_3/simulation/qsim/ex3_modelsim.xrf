@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa1_3/ex3.vhd
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa1_3/Waveform.vwf
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa1_3/db/ex3.cbx.xml
+design_name = hard_block
+design_name = ex3
+instance = comp, \c~output\, c~output, ex3, 1
+instance = comp, \a~input\, a~input, ex3, 1
+instance = comp, \b~input\, b~input, ex3, 1
+instance = comp, \c~0\, c~0, ex3, 1

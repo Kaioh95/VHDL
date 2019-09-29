@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MaiorDe3 is
+	port(
+		a, b, c: in std_logic_vector (7 downto 0);
+		Amaior, Bmaior, Cmaior: out std_logic
+	);
+end MaiorDe3
+
+architecture arch of MaiorDe3 is
+begin
+	amaior <= a < b;
+
+end arch;

@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/Exercicios/Tarefa8_1/with_select/simulation/qsim
+Edemux_1x4_ws
+Z1 w1566774967
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8demux_1x4_ws.vho
+Z9 Fdemux_1x4_ws.vho
+l0
+L77
+VFKl0JlLZEf0ie^@0QYda^0
+!s100 k7Wi<R_I4GGm:eE0g<2c83
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1566774972
+!i10b 1
+Z12 !s108 1566774971.000000
+Z13 !s90 -work|work|demux_1x4_ws.vho|
+Z14 !s107 demux_1x4_ws.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 12 demux_1x4_ws 0 22 FKl0JlLZEf0ie^@0QYda^0
+l127
+L95
+VnVVMg<;3kQz=WBU@01iVS1
+!s100 G:7K=Pl2k[>;9L2KNhL;i1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Edemux_1x4_ws_vhd_vec_tst
+Z17 w1566774960
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+V6kIjPFY`zKB`nV6SSF=`A1
+!s100 a8P9]0ZIAMhjzeZ[Aoc<T3
+R10
+32
+Z20 !s110 1566774973
+!i10b 1
+Z21 !s108 1566774972.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Ademux_1x4_ws_arch
+R5
+R6
+Z24 DEx4 work 24 demux_1x4_ws_vhd_vec_tst 0 22 6kIjPFY`zKB`nV6SSF=`A1
+l46
+L33
+Z25 Vbg>b7j94LPDR[kn`Uz1WN1
+Z26 !s100 ;YzbjG;14Z@5CQ3^K_4F11
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

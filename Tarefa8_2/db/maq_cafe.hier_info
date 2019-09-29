@@ -1,0 +1,41 @@
+|maq_cafe
+b1 => k[0].IN1
+b1 => k[0].OUTPUTSELECT
+b1 => k[1].OUTPUTSELECT
+b1 => k[2].OUTPUTSELECT
+b2 => k[0].IN1
+b2 => k[0].OUTPUTSELECT
+b2 => k[1].OUTPUTSELECT
+b2 => k[2].OUTPUTSELECT
+b3 => k[0].IN1
+b3 => k[0].OUTPUTSELECT
+b3 => k[1].OUTPUTSELECT
+b3 => k[2].OUTPUTSELECT
+b4 => k[0].IN1
+b4 => k[0].OUTPUTSELECT
+b4 => k[1].OUTPUTSELECT
+b4 => k[2].OUTPUTSELECT
+b5 => k[0].IN1
+b5 => k[0].OUTPUTSELECT
+b5 => k[1].OUTPUTSELECT
+b5 => k[2].OUTPUTSELECT
+b6 => k[0].IN1
+b6 => k[0].OUTPUTSELECT
+b6 => k[1].OUTPUTSELECT
+b7 => k[0].IN0
+b7 => k[1].DATAA
+b7 => k[0].DATAA
+b8 => k[0].IN1
+k[0] <> k[0]
+k[1] <> k[1]
+k[2] <> k[2]
+A <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+B <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+C <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+D <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+E <= Equal4.DB_MAX_OUTPUT_PORT_TYPE
+F <= Equal5.DB_MAX_OUTPUT_PORT_TYPE
+G <= Equal6.DB_MAX_OUTPUT_PORT_TYPE
+H <= Equal7.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Deslocador is
+begin
+	port(
+		ENTRA: in std_logic_vector(7 downto 0);
+		DESLOCA: in std_logic_vector(2 downto 0);
+		SAIDA: out std_logic_vector(7 downto 0)
+	);
+end Desclocador;
+
+architecture arch is
+begin
+	with(Desloca) select
+		SAIDA <= ENTRA(6 downto 0) & '0' when "01",
+		sAIDA <= '0' & ENTRA(7 downto 1) when "10",
+		SAIDA <= ENTRA when others;
+end arch;
