@@ -1,0 +1,10 @@
+|latch_rs
+r => process_0.IN0
+r => process_0.IN0
+s => process_0.IN1
+s => process_0.IN1
+clk => q.IN1
+q <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
+n_q <= n_q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
