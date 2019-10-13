@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity cont_sinc_dc is
+	port(
+		u/d, clear, cnt, clk: in std_logic;
+		s: out std_logic_vector(3 downto 0);
+		fc: out std_logic
+	);
+end cont_sinc_dc;
+
+architecture arch of cont_sinc_dc is
+begin
+	
+end arch;

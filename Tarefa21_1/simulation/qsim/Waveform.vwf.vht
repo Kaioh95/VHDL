@@ -18,9 +18,9 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "10/12/2019 23:47:08"
+-- Generated on "10/13/2019 11:56:15"
                                                              
--- Vhdl Test Bench(with test vectors) for design  :          cont_ac
+-- Vhdl Test Bench(with test vectors) for design  :          cont_a_dc
 -- 
 -- Simulation tool : 3rd Party
 -- 
@@ -28,24 +28,27 @@
 LIBRARY ieee;                                               
 USE ieee.std_logic_1164.all;                                
 
-ENTITY cont_ac_vhd_vec_tst IS
-END cont_ac_vhd_vec_tst;
-ARCHITECTURE cont_ac_arch OF cont_ac_vhd_vec_tst IS
+ENTITY cont_a_dc_vhd_vec_tst IS
+END cont_a_dc_vhd_vec_tst;
+ARCHITECTURE cont_a_dc_arch OF cont_a_dc_vhd_vec_tst IS
 -- constants                                                 
 -- signals                                                   
 SIGNAL clk : STD_LOGIC;
+SIGNAL dc : STD_LOGIC;
 SIGNAL q : STD_LOGIC_VECTOR(1 DOWNTO 0);
-COMPONENT cont_ac
+COMPONENT cont_a_dc
 	PORT (
 	clk : IN STD_LOGIC;
+	dc : IN STD_LOGIC;
 	q : OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
-	i1 : cont_ac
+	i1 : cont_a_dc
 	PORT MAP (
 -- list connections between master ports and signals
 	clk => clk,
+	dc => dc,
 	q => q
 	);
 
@@ -60,4 +63,18 @@ LOOP
 	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
 END LOOP;
 END PROCESS t_prcs_clk;
-END cont_ac_arch;
+
+-- dc
+t_prcs_dc: PROCESS
+BEGIN
+	FOR i IN 1 TO 3
+	LOOP
+		dc <= '0';
+		WAIT FOR 160000 ps;
+		dc <= '1';
+		WAIT FOR 160000 ps;
+	END LOOP;
+	dc <= '0';
+WAIT;
+END PROCESS t_prcs_dc;
+END cont_a_dc_arch;

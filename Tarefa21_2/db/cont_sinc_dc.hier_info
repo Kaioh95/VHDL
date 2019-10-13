@@ -1,0 +1,27 @@
+|cont_sinc_dc
+ud => valor.OUTPUTSELECT
+ud => valor.OUTPUTSELECT
+ud => valor.OUTPUTSELECT
+ud => valor.OUTPUTSELECT
+ud => fc.OUTPUTSELECT
+clear => valor.OUTPUTSELECT
+clear => valor.OUTPUTSELECT
+clear => valor.OUTPUTSELECT
+clear => valor.OUTPUTSELECT
+cnt => valor.OUTPUTSELECT
+cnt => valor.OUTPUTSELECT
+cnt => valor.OUTPUTSELECT
+cnt => valor.OUTPUTSELECT
+cnt => fc~reg0.ENA
+clk => fc~reg0.CLK
+clk => valor[0].CLK
+clk => valor[1].CLK
+clk => valor[2].CLK
+clk => valor[3].CLK
+s[0] <= valor[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= valor[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= valor[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= valor[3].DB_MAX_OUTPUT_PORT_TYPE
+fc <= fc~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

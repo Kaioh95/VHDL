@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 13 11:51:45 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : cont_a_dc
+Top-level Entity Name : cont_a_dc
+Family : Cyclone IV E
+Total logic elements : 6
+    Total combinational functions : 6
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

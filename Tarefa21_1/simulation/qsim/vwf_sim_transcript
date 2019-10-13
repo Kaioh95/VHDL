@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off cont_ac -c cont_ac --vector_source="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/Waveform.vwf" --testbench_file="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/Waveform.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off cont_a_dc -c cont_a_dc --vector_source="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/Waveform.vwf" --testbench_file="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/Waveform.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,16 +25,16 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Oct 12 23:47:00 2019
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off cont_ac -c cont_ac --vector_source=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/Waveform.vwf.vht
-Info (119006): Selected device EP4CE115F29C7 for design "cont_ac"
+    Info: Processing started: Sun Oct 13 11:56:11 2019
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off cont_a_dc -c cont_a_dc --vector_source=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/Waveform.vwf.vht
+Info (119006): Selected device EP4CE115F29C7 for design "cont_a_dc"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/" cont_ac -c cont_ac
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/" cont_a_dc -c cont_a_dc
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -52,85 +52,86 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Oct 12 23:47:12 2019
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/ cont_ac -c cont_ac
-Info (119006): Selected device EP4CE115F29C7 for design "cont_ac"
+    Info: Processing started: Sun Oct 13 11:56:17 2019
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/ cont_a_dc -c cont_a_dc
+Info (119006): Selected device EP4CE115F29C7 for design "cont_a_dc"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file cont_ac.vho in folder "C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file cont_a_dc.vho in folder "C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 506 megabytes
-    Info: Processing ended: Sat Oct 12 23:47:19 2019
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 504 megabytes
+    Info: Processing ended: Sun Oct 13 11:56:22 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_ac.do generated.
+C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_a_dc.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-c:/intelfpga/18.1/modelsim_ase/win32aloem//vsim -c -do cont_ac.do
+c:/intelfpga/18.1/modelsim_ase/win32aloem//vsim -c -do cont_a_dc.do
 
 Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
 
 # 10.5b
 
 
-# do cont_ac.do
+# do cont_a_dc.do
 
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:47:25 on Oct 12,2019
-# vcom -work work cont_ac.vho 
+# Start time: 11:56:32 on Oct 13,2019
+# vcom -work work cont_a_dc.vho 
 
 # -- Loading package STANDARD
 
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-
 # -- Loading package VITAL_Timing
 # -- Loading package VITAL_Primitives
 # -- Loading package dffeas_pack
 # -- Loading package altera_primitives_components
+
 # -- Loading package cycloneive_atom_pack
 # -- Loading package cycloneive_components
-# -- Compiling entity cont_ac
-# -- Compiling architecture structure of cont_ac
+# -- Compiling entity cont_a_dc
+# -- Compiling architecture structure of cont_a_dc
 
-# End time: 23:47:25 on Oct 12,2019, Elapsed time: 0:00:00
+# End time: 11:56:34 on Oct 13,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:47:25 on Oct 12,2019
+# Start time: 11:56:34 on Oct 13,2019
 # vcom -work work Waveform.vwf.vht 
 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity cont_ac_vhd_vec_tst
-# -- Compiling architecture cont_ac_arch of cont_ac_vhd_vec_tst
+# -- Compiling entity cont_a_dc_vhd_vec_tst
+# -- Compiling architecture cont_a_dc_arch of cont_a_dc_vhd_vec_tst
 
-# End time: 23:47:26 on Oct 12,2019, Elapsed time: 0:00:01
+# End time: 11:56:34 on Oct 13,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.cont_ac_vhd_vec_tst 
-# Start time: 23:47:26 on Oct 12,2019
+# vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.cont_a_dc_vhd_vec_tst 
+# Start time: 11:56:39 on Oct 13,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.cont_ac_vhd_vec_tst(cont_ac_arch)
+# Loading work.cont_a_dc_vhd_vec_tst(cont_a_dc_arch)
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
 # Loading altera.dffeas_pack
 # Loading altera.altera_primitives_components
 # Loading cycloneive.cycloneive_atom_pack(body)
 # Loading cycloneive.cycloneive_components
-# Loading work.cont_ac(structure)
+# Loading work.cont_a_dc(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
 # Loading cycloneive.cycloneive_io_ibuf(arch)
@@ -138,7 +139,7 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading altera.dffeas(vital_dffeas)
 # after#33
 
-# End time: 23:47:29 on Oct 12,2019, Elapsed time: 0:00:03
+# End time: 11:56:41 on Oct 13,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
@@ -147,11 +148,11 @@ Completed successfully.
 
 Reading C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/Waveform.vwf...
 
-Reading C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_ac.msim.vcd...
+Reading C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_a_dc.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_ac_20191012234730.sim.vwf
+Writing the resulting VWF to C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim/cont_a_dc_20191013115642.sim.vwf
 
 Finished VCD to VWF conversion.
 

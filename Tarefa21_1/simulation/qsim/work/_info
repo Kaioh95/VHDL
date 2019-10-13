@@ -8,8 +8,8 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/simulation/qsim
-Econt_ac
-Z1 w1570934838
+Econt_a_dc
+Z1 w1570978582
 Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
 Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
 Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -19,22 +19,112 @@ Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z9 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
 R0
-Z10 8cont_ac.vho
-Z11 Fcont_ac.vho
+Z10 8cont_a_dc.vho
+Z11 Fcont_a_dc.vho
+l0
+L36
+Vo<8I_XFEfAla:lThQ1j8N2
+!s100 I7YIeDCTV6AmV4N6=XDhd2
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1570978594
+!i10b 1
+Z14 !s108 1570978592.000000
+Z15 !s90 -work|work|cont_a_dc.vho|
+Z16 !s107 cont_a_dc.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 9 cont_a_dc 0 22 o<8I_XFEfAla:lThQ1j8N2
+l73
+L44
+VaCi=SQ@QDH1L_JM1n`knb2
+!s100 Sf4EzFEVI2W;144gVi5H<2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Econt_a_dc_vhd_vec_tst
+Z19 w1570978575
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L31
+V<iMA`dVmC3O;;]JHKkbaW2
+!s100 diR`zVDizf<m4@fVCnPAV1
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1570978594.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Acont_a_dc_arch
+R7
+R8
+DEx4 work 21 cont_a_dc_vhd_vec_tst 0 22 <iMA`dVmC3O;;]JHKkbaW2
+l46
+L33
+Vj[O3l]@8KCR2L8ePQF@>c2
+!s100 =6iddIKb`Lj_BH1V<@HIV2
+R12
+32
+R13
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R17
+R18
+Econt_ac
+Z25 w1570934838
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R0
+Z26 8cont_ac.vho
+Z27 Fcont_ac.vho
 l0
 L36
 VZjVeC;]ofQ0V5VgVhOnQj2
 !s100 Z[BIfCm2B[cR71nG`L1;g2
-Z12 OV;C;10.5b;63
+R12
 32
-Z13 !s110 1570934845
+Z28 !s110 1570934845
 !i10b 1
-Z14 !s108 1570934845.000000
-Z15 !s90 -work|work|cont_ac.vho|
-Z16 !s107 cont_ac.vho|
+Z29 !s108 1570934845.000000
+Z30 !s90 -work|work|cont_ac.vho|
+Z31 !s107 cont_ac.vho|
 !i113 1
-Z17 o-work work
-Z18 tExplicit 1 CvgOpt 0
+R17
+R18
 Astructure
 R2
 R3
@@ -51,32 +141,32 @@ VPDah[]z`c>>3B0UlWZR:H2
 !s100 cf`P`2l80OF2>2czGk9^63
 R12
 32
-R13
+R28
 !i10b 1
-R14
-R15
-R16
+R29
+R30
+R31
 !i113 1
 R17
 R18
 Econt_ac_vhd_vec_tst
-Z19 w1570934828
+Z32 w1570934828
 R7
 R8
 R0
-Z20 8Waveform.vwf.vht
-Z21 FWaveform.vwf.vht
+R20
+R21
 l0
 L31
 VV[_DAAbo_T?CoM]nF]3dC3
 !s100 jOa2Xz^GNMOCgM[kj]K`M3
 R12
 32
-Z22 !s110 1570934846
+Z33 !s110 1570934846
 !i10b 1
-R14
-Z23 !s90 -work|work|Waveform.vwf.vht|
-Z24 !s107 Waveform.vwf.vht|
+R29
+R23
+R24
 !i113 1
 R17
 R18
@@ -90,16 +180,16 @@ VifJoScb^=nAJiKz`e8LGS3
 !s100 M929;g<P@_^>noblcnmD_2
 R12
 32
-R22
+R33
 !i10b 1
-R14
+R29
 R23
 R24
 !i113 1
 R17
 R18
 Econt_ad
-Z25 w1570934216
+Z34 w1570934216
 R2
 R3
 R4
@@ -109,19 +199,19 @@ R7
 R8
 R9
 R0
-Z26 8cont_ad.vho
-Z27 Fcont_ad.vho
+Z35 8cont_ad.vho
+Z36 Fcont_ad.vho
 l0
 L36
 VYOc<j<;nc_YY_[<A2[be33
 !s100 l4_Ha^i657lR<dSj[EmBQ0
 R12
 32
-Z28 !s110 1570934223
+Z37 !s110 1570934223
 !i10b 1
-Z29 !s108 1570934223.000000
-Z30 !s90 -work|work|cont_ad.vho|
-Z31 !s107 cont_ad.vho|
+Z38 !s108 1570934223.000000
+Z39 !s90 -work|work|cont_ad.vho|
+Z40 !s107 cont_ad.vho|
 !i113 1
 R17
 R18
@@ -141,16 +231,16 @@ VWl?GP2hLlh8fbMA@F0Rkk1
 !s100 6@a<<Do`HiOUYB^`1A2jA2
 R12
 32
-R28
+R37
 !i10b 1
-R29
-R30
-R31
+R38
+R39
+R40
 !i113 1
 R17
 R18
 Econt_ad_vhd_vec_tst
-Z32 w1570934207
+Z41 w1570934207
 R7
 R8
 R0
@@ -162,9 +252,9 @@ V6MCgiz9WXXFW=O]]POOmZ3
 !s100 ZD]86A@>lTW@W]Y;5KXdB2
 R12
 32
-Z33 !s110 1570934224
+Z42 !s110 1570934224
 !i10b 1
-Z34 !s108 1570934224.000000
+Z43 !s108 1570934224.000000
 R23
 R24
 !i113 1
@@ -180,9 +270,9 @@ Vko7UOoXnOh@aTi4B`71jB2
 !s100 RDgc=;IVVi9ifH[TB12g`1
 R12
 32
-R33
+R42
 !i10b 1
-R34
+R43
 R23
 R24
 !i113 1
