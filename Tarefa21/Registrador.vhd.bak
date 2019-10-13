@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1166.all;
+
+entity Registrador is
+	port(
+		i: in std_logic_vector(15 downto 0);
+		clk, clr, lr: in std_logic;
+		q: out std_logic_vector(15 downto 0)
+	);
+end Registrador;
+
+architecture arch of Refistrador is
+begin
+	process(i, clk, clr, lr)
+		begin
+			if(clk'event and clk='1') then
+				if(lr = '1') then
+					q <= i;
+				elsif(clr = '1') then
+					q <= 0(15 downto 0);
+				end if;
+			end if;
+		end process;
+end arch;

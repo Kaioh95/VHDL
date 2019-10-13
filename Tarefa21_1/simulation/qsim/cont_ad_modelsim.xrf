@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/cont_ad.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21_1/db/cont_ad.cbx.xml
+design_name = cont_ad
+instance = comp, \q1~output\, q1~output, cont_ad, 1
+instance = comp, \q0~output\, q0~output, cont_ad, 1
+instance = comp, \clk~input\, clk~input, cont_ad, 1
+instance = comp, \s0~0\, s0~0, cont_ad, 1
+instance = comp, \s1~0\, s1~0, cont_ad, 1
