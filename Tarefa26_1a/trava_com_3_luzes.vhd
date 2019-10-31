@@ -19,33 +19,34 @@ CONSTANT ABRE  : STD_LOGIC_VECTOR(2 DOWNTO 0) := "001";
 SIGNAL Y : STD_LOGIC_VECTOR(2 DOWNTO 0) := LUIZ_1;
 
 BEGIN 
-	PROCESS(clk, W, Y)
+	PROCESS(clk, BT, Y)
 	BEGIN
 		IF(clk'event AND clk='1') THEN
 			CASE Y IS 
-			WHEN LUIZ_1 =>
-				IF( BT = '1') THEN
-						Y <= LUIZ_2;
-				END IF;
-				
-			WHEN LUIZ_2 =>
-				IF( BT = '1') THEN
-					Y <= LUIZ_3;
-				END IF;
-				
-			WHEN LUIZ_3 =>
-				IF( BT = '1') THEN
-					Y <= ABRE;
-				END IF;
-				
-			WHEN OTHERS =>
-				Y <= LUIZ_1;
-			END CASE;
-			
+                WHEN LUIZ_1 =>
+                    IF( BT = '1') THEN
+                            Y <= LUIZ_2;
+                    END IF;
+                    
+                WHEN LUIZ_2 =>
+                    IF( BT = '1') THEN
+                        Y <= LUIZ_3;
+                    END IF;
+                    
+                WHEN LUIZ_3 =>
+                    IF( BT = '1') THEN
+                        Y <= ABRE;
+                    END IF;
+                    
+                WHEN OTHERS =>
+                    Y <= LUIZ_1;
+            END CASE;
+
 		IF(Y = ABRE) THEN
 			X <= '1';
 		ELSE
 			X <= '0';
-		END IF;
+        END IF;
+    END IF;
 	END PROCESS;
 END arq;

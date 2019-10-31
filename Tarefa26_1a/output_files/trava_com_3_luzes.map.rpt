@@ -1,5 +1,5 @@
 Analysis & Elaboration report for trava_com_3_luzes
-Thu Oct 31 00:14:08 2019
+Thu Oct 31 09:52:46 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Thu Oct 31 00:14:08 2019           ;
+; Analysis & Elaboration Status ; Successful - Thu Oct 31 09:52:46 2019       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; trava_com_3_luzes                           ;
 ; Top-level Entity Name         ; trava_com_3_luzes                           ;
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 2           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -160,16 +160,19 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 31 00:13:50 2019
+    Info: Processing started: Thu Oct 31 09:52:29 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off trava_com_3_luzes -c trava_com_3_luzes --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Error (10500): VHDL syntax error at trava_com_3_luzes.vhd(50) near text "PROCESS";  expecting "if" File: /home/felipe/quartus/aula26/trava_com_3_luzes.vhd Line: 50
-Info (12021): Found 0 design units, including 0 entities, in source file trava_com_3_luzes.vhd
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 1336 megabytes
-    Error: Processing ended: Thu Oct 31 00:14:08 2019
-    Error: Elapsed time: 00:00:18
-    Error: Total CPU time (on all processors): 00:00:45
+Info (12021): Found 2 design units, including 1 entities, in source file trava_com_3_luzes.vhd
+    Info (12022): Found design unit 1: trava_com_3_luzes-arq File: /home/felipe00/Documentos/VHDL/Tarefa26_1a/trava_com_3_luzes.vhd Line: 11
+    Info (12023): Found entity 1: trava_com_3_luzes File: /home/felipe00/Documentos/VHDL/Tarefa26_1a/trava_com_3_luzes.vhd Line: 4
+Info (12127): Elaborating entity "trava_com_3_luzes" for the top level hierarchy
+Warning (10541): VHDL Signal Declaration warning at trava_com_3_luzes.vhd(8): used implicit default value for signal "luz" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /home/felipe00/Documentos/VHDL/Tarefa26_1a/trava_com_3_luzes.vhd Line: 8
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 1335 megabytes
+    Info: Processing ended: Thu Oct 31 09:52:46 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:26
 
 
