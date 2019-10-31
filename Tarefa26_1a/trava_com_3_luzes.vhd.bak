@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY trava_com_3_luzes IS
+PORT(
+	clk, BT: IN STD_LOGIC;
+	X: OUT STD_LOGIC;
+	luz: OUT STD_LOGIC_VECTOR(2 DOWNTO 0));
+END;

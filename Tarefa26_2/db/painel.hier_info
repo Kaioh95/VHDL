@@ -1,0 +1,13 @@
+|painel
+clk => X[0]~reg0.CLK
+clk => X[1]~reg0.CLK
+clk => AUX[0].CLK
+clk => AUX[1].CLK
+BT => AUX.OUTPUTSELECT
+BT => AUX.OUTPUTSELECT
+BT => AUX.OUTPUTSELECT
+BT => AUX.OUTPUTSELECT
+X[0] <= X[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+X[1] <= X[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
