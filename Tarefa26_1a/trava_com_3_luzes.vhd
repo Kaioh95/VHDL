@@ -42,11 +42,12 @@ BEGIN
                     Y <= LUIZ_1;
             END CASE;
 
-		IF(Y = ABRE) THEN
-			X <= '1';
-		ELSE
-			X <= '0';
+            IF(Y = ABRE) THEN
+                X <= '1';
+            ELSE
+                X <= '0';
+            END IF;
+            luz <= Y;
         END IF;
-    END IF;
 	END PROCESS;
 END arq;
