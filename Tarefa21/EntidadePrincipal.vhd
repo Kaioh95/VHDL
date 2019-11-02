@@ -5,7 +5,7 @@ entity EntidadePrincipal is
 	port(
 		c: in std_logic_vector(2 downto 0);
 		entrada: in std_logic_vector(15 downto 0);
-		rw, clk: in std_logic;
+		rw, clk, clr: in std_logic;
 		saida: out std_logic_vector(15 downto 0)
 	);
 end EntidadePrincipal;
@@ -30,14 +30,14 @@ signal s6: std_logic_vector(15 downto 0);
 signal s7: std_logic_vector(15 downto 0);
 
 begin
-	r0: Registrador port map("0000000000000001", clk, '0', rw, s0);
-	r1: Registrador port map("0000000000000010", clk, '0', rw, s1);
-	r2: Registrador port map("0000000000000100", clk, '0', rw, s2);
-	r3: Registrador port map("0000000000001000", clk, '0', rw, s3);
-	r4: Registrador port map("0000000000010000", clk, '0', rw, s4);
-	r5: Registrador port map("0000000000100000", clk, '0', rw, s5);
-	r6: Registrador port map("0000000001000000", clk, '0', rw, s6);
-	r7: Registrador port map("0000000010000000", clk, '0', rw, s7);
+	r0: Registrador port map("0000000000000001", clk, clr, rw, s0);
+	r1: Registrador port map("0000000000000010", clk, clr, rw, s1);
+	r2: Registrador port map("0000000000000100", clk, clr, rw, s2);
+	r3: Registrador port map("0000000000001000", clk, clr, rw, s3);
+	r4: Registrador port map("0000000000010000", clk, clr, rw, s4);
+	r5: Registrador port map("0000000000100000", clk, clr, rw, s5);
+	r6: Registrador port map("0000000001000000", clk, clr, rw, s6);
+	r7: Registrador port map("0000000010000000", clk, clr, rw, s7);
 	
 	process(c)
 	begin

@@ -1,5 +1,5 @@
 Flow report for EntidadePrincipal
-Sat Oct 12 23:13:13 2019
+Sat Nov 02 14:31:04 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Oct 12 23:13:13 2019       ;
+; Flow Status                        ; Successful - Sat Nov 02 14:31:04 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; EntidadePrincipal                           ;
 ; Top-level Entity Name              ; EntidadePrincipal                           ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 8                                           ;
-;     Total combinational functions  ; 8                                           ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 37                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/12/2019 23:07:15 ;
+; Start date & time ; 11/02/2019 14:30:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; EntidadePrincipal   ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 259854006721660.157093243404780        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 259854006721660.157271584607448        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -86,41 +86,29 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:10     ; 1.0                     ; 666 MB              ; 00:02:28                           ;
-; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 500 MB              ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 504 MB              ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 503 MB              ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 507 MB              ; 00:00:05                           ;
-; Total                ; 00:01:29     ; --                      ; --                  ; 00:02:45                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:18     ; 1.0                     ; 633 MB              ; 00:00:40                           ;
+; Total                  ; 00:00:18     ; --                      ; --                  ; 00:00:40                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Flow OS Summary                                                                   ;
-+----------------------+------------------+-----------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer   ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer   ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer   ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer   ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
-+----------------------+------------------+-----------+------------+----------------+
++-------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                     ;
++------------------------+------------------+-----------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++------------------------+------------------+-----------+------------+----------------+
+; Analysis & Elaboration ; Usuario-PC       ; Windows 7 ; 6.1        ; x86_64         ;
++------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off EntidadePrincipal -c EntidadePrincipal
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off EntidadePrincipal -c EntidadePrincipal --vector_source=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/simulation/qsim/ EntidadePrincipal -c EntidadePrincipal
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off EntidadePrincipal -c EntidadePrincipal --vector_source=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa21/simulation/qsim/ EntidadePrincipal -c EntidadePrincipal
+quartus_map --read_settings_files=on --write_settings_files=off EntidadePrincipal -c EntidadePrincipal --analysis_and_elaboration
 
 
 

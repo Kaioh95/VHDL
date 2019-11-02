@@ -1,0 +1,63 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity fsm_moore is
+	port(
+		clk, bt: in std_logic;
+		x, luz1, luz2, luz3: out std_logic
+	);
+end fsm_moore;
+
+architecture fsm of fsm_moore is
+constant fecha1: std_logic_vector(1 downto 0) := "00";
+constant fecha2: std_logic_vector(1 downto 0) := "01";
+constant fecha3: std_logic_vector(1 downto 0) := "10";
+constant abre: std_logic_vector(1 downto 0) := "11";
+signal y: std_logic_vector(1 downto 0) := fecha1;
+
+begin
+	process(clk, bt, y)
+		begin
+		
+			if(clk'event and clk='1') then
+				case y is
+				when fecha1 =>
+					if(bt = '1') then
+						y <= fecha2;
+					end if;
+				when fecha2 =>
+					if(bt = '1') then
+						y <= fecha3;
+					end if;
+				when fecha3 =>
+					if(bt = '1') then
+						y <= abre;
+					end if;
+				when others =>
+					y <= fecha1;
+				end case;
+			end if;
+			if(y = fecha1) then
+				x <= '0';
+				luz1 <= '0';
+				luz2 <= '0';
+				luz3 <= '0';
+			elsif(y = fecha2) then
+				x <= '0';
+				luz1 <= '1';
+				luz2 <= '0';
+				luz3 <= '0';
+			elsif(y = fecha3) then
+				x <= '0';
+				luz1 <= '0';
+				luz2 <= '1';
+				luz3 <= '0';
+			else
+				x <= '1';
+				luz1 <= '0';
+				luz2 <= '0';
+				luz3 <= '1';
+			end if;
+		end process;
+
+end fsm;

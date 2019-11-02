@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Tarefa26_2/simulation/qsim
+Ecar_dashboard
+Z1 w1572733848
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z10 8car_dashboard.vho
+Z11 Fcar_dashboard.vho
+l0
+L36
+V78?N[R]zEKmc>h[9fdC^F0
+!s100 2CO[@i;746ZGSQJ<5RSY<0
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1572733853
+!i10b 1
+Z14 !s108 1572733853.000000
+Z15 !s90 -work|work|car_dashboard.vho|
+Z16 !s107 car_dashboard.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 13 car_dashboard 0 22 78?N[R]zEKmc>h[9fdC^F0
+l71
+L44
+VN09kGF?@]5?5M4zRdFkZY0
+!s100 M443[0301m0I>P5U8Ml`M3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ecar_dashboard_vhd_vec_tst
+Z19 w1572733841
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L31
+VhHmDolTE9<elM[NP^gZc]0
+!s100 J?4kmg?cmA4@h>QefEi@J1
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Acar_dashboard_arch
+R7
+R8
+Z24 DEx4 work 25 car_dashboard_vhd_vec_tst 0 22 hHmDolTE9<elM[NP^gZc]0
+l46
+L33
+V?9YB=XJ?0R<ML5@gfU`NU0
+!s100 j^OL<L50NWJK=2hV`0lSQ1
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18

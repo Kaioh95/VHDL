@@ -1,0 +1,29 @@
+|car_dashboard
+clk => data[0]~reg0.CLK
+clk => data[1]~reg0.CLK
+clk => data[2]~reg0.CLK
+clk => sig[0].CLK
+clk => sig[1].CLK
+clk => sig[2].CLK
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => data.OUTPUTSELECT
+bt => data.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => data.OUTPUTSELECT
+bt => data.OUTPUTSELECT
+bt => data.OUTPUTSELECT
+bt => Mux4.IN3
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+bt => Mux5.IN3
+bt => sig.OUTPUTSELECT
+bt => sig.OUTPUTSELECT
+data[0] <= data[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= data[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= data[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

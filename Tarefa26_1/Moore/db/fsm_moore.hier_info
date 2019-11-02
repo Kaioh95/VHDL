@@ -1,0 +1,13 @@
+|fsm_moore
+clk => y[0].CLK
+clk => y[1].CLK
+bt => y.OUTPUTSELECT
+bt => y.OUTPUTSELECT
+bt => y.OUTPUTSELECT
+bt => y.OUTPUTSELECT
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+luz1 <= luz1.DB_MAX_OUTPUT_PORT_TYPE
+luz2 <= luz2.DB_MAX_OUTPUT_PORT_TYPE
+luz3 <= luz3.DB_MAX_OUTPUT_PORT_TYPE
+
+
