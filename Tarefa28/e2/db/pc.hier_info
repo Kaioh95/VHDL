@@ -1,0 +1,19 @@
+|pc
+clk => y[0].CLK
+clk => y[1].CLK
+clk => y[2].CLK
+c => y.OUTPUTSELECT
+c => y.OUTPUTSELECT
+c => y.OUTPUTSELECT
+c => process_0.IN0
+c => process_0.IN0
+tot_lt_s => process_0.IN1
+tot_lt_s => process_0.IN1
+n_troco => process_0.IN1
+n_troco => process_0.IN1
+d <= d$latch.DB_MAX_OUTPUT_PORT_TYPE
+troco <= troco$latch.DB_MAX_OUTPUT_PORT_TYPE
+tot_ld <= tot_ld$latch.DB_MAX_OUTPUT_PORT_TYPE
+tot_clr <= tot_clr$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,104 @@
+|MaqRefriTroco
+clk => po:i1.clk
+clk => pc:i2.clk
+c => pc:i2.c
+s[0] => po:i1.s[0]
+s[1] => po:i1.s[1]
+s[2] => po:i1.s[2]
+s[3] => po:i1.s[3]
+s[4] => po:i1.s[4]
+s[5] => po:i1.s[5]
+s[6] => po:i1.s[6]
+s[7] => po:i1.s[7]
+a[0] => po:i1.a[0]
+a[1] => po:i1.a[1]
+a[2] => po:i1.a[2]
+a[3] => po:i1.a[3]
+a[4] => po:i1.a[4]
+a[5] => po:i1.a[5]
+a[6] => po:i1.a[6]
+a[7] => po:i1.a[7]
+d << pc:i2.d
+troco << pc:i2.troco
+
+
+|MaqRefriTroco|po:i1
+clk => tot_saida[0].CLK
+clk => tot_saida[1].CLK
+clk => tot_saida[2].CLK
+clk => tot_saida[3].CLK
+clk => tot_saida[4].CLK
+clk => tot_saida[5].CLK
+clk => tot_saida[6].CLK
+clk => tot_saida[7].CLK
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_ld => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+tot_clr => tot_saida.OUTPUTSELECT
+s[0] => LessThan0.IN8
+s[0] => LessThan1.IN8
+s[0] => Equal0.IN7
+s[1] => LessThan0.IN7
+s[1] => LessThan1.IN7
+s[1] => Equal0.IN6
+s[2] => LessThan0.IN6
+s[2] => LessThan1.IN6
+s[2] => Equal0.IN5
+s[3] => LessThan0.IN5
+s[3] => LessThan1.IN5
+s[3] => Equal0.IN4
+s[4] => LessThan0.IN4
+s[4] => LessThan1.IN4
+s[4] => Equal0.IN3
+s[5] => LessThan0.IN3
+s[5] => LessThan1.IN3
+s[5] => Equal0.IN2
+s[6] => LessThan0.IN2
+s[6] => LessThan1.IN2
+s[6] => Equal0.IN1
+s[7] => LessThan0.IN1
+s[7] => LessThan1.IN1
+s[7] => Equal0.IN0
+a[0] => Add0.IN8
+a[1] => Add0.IN7
+a[2] => Add0.IN6
+a[3] => Add0.IN5
+a[4] => Add0.IN4
+a[5] => Add0.IN3
+a[6] => Add0.IN2
+a[7] => Add0.IN1
+tot_lt_s <= tot_lt_s$latch.DB_MAX_OUTPUT_PORT_TYPE
+n_troco <= n_troco$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MaqRefriTroco|pc:i2
+clk => y[0].CLK
+clk => y[1].CLK
+clk => y[2].CLK
+c => y.OUTPUTSELECT
+c => y.OUTPUTSELECT
+c => y.OUTPUTSELECT
+c => process_0.IN0
+c => process_0.IN0
+tot_lt_s => process_0.IN1
+tot_lt_s => process_0.IN1
+n_troco => process_0.IN1
+n_troco => process_0.IN1
+d <= d$latch.DB_MAX_OUTPUT_PORT_TYPE
+troco <= troco$latch.DB_MAX_OUTPUT_PORT_TYPE
+tot_ld <= tot_ld$latch.DB_MAX_OUTPUT_PORT_TYPE
+tot_clr <= tot_clr$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
