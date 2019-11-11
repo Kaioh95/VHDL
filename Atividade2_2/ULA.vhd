@@ -68,7 +68,7 @@ l7: ComponenteLogico port map (A(7), B(7), M, S1, S0, x(7), y(7));
 o7: FA port map (x(7), y(7), C(6), F(7), c(7));
 
 l8: ComponenteLogico port map (A(8), B(8), M, S1, S0, x(8), y(8));
-o8: FA port map (x(9), y(8), C(7), F(8), c(8));
+o8: FA port map (x(8), y(8), C(7), F(8), c(8));
 
 l9: ComponenteLogico port map (A(9), B(9), M, S1, S0, x(9), y(9));
 o9: FA port map (x(9), y(9), C(8), F(9), c(9));

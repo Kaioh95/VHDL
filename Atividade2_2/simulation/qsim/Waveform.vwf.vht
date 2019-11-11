@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/10/2019 15:34:00"
+-- Generated on "11/10/2019 20:44:08"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          ULA
 -- 
@@ -45,12 +45,12 @@ COMPONENT ULA
 	PORT (
 	A : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 	B : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-	Cin : INOUT STD_LOGIC;
-	Cout : OUT STD_LOGIC;
+	Cin : BUFFER STD_LOGIC;
+	Cout : BUFFER STD_LOGIC;
 	M : IN STD_LOGIC;
 	S0 : IN STD_LOGIC;
 	S1 : IN STD_LOGIC;
-	SAIDA : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+	SAIDA : BUFFER STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
