@@ -25,9 +25,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Nov 09 16:58:25 2019
+    Info: Processing started: Mon Nov 11 20:50:46 2019
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off hex_7seg -c hex_7seg --vector_source=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/Waveform.vwf --testbench_file=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/simulation/qsim/Waveform.vwf.vht
-Info (119006): Selected device EP4CE115F29C7 for design "hex_7seg"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
@@ -52,15 +51,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Nov 09 16:58:32 2019
+    Info: Processing started: Mon Nov 11 20:50:52 2019
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/simulation/qsim/ hex_7seg -c hex_7seg
-Info (119006): Selected device EP4CE115F29C7 for design "hex_7seg"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file hex_7seg.vho in folder "C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 506 megabytes
-    Info: Processing ended: Sat Nov 09 16:58:40 2019
-    Info: Elapsed time: 00:00:08
+    Info: Peak virtual memory: 503 megabytes
+    Info: Processing ended: Mon Nov 11 20:50:57 2019
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
 Completed successfully. 
@@ -83,8 +81,10 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # do hex_7seg.do
 
+# ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:58:53 on Nov 09,2019
+# Start time: 20:51:07 on Nov 11,2019
 # vcom -work work hex_7seg.vho 
 
 # -- Loading package STANDARD
@@ -92,33 +92,33 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package VITAL_Timing
-
 # -- Loading package VITAL_Primitives
 # -- Loading package cycloneive_atom_pack
 # -- Loading package cycloneive_components
-# -- Compiling entity hex_7seg
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
 
+# -- Compiling entity hex_7seg
 # -- Compiling architecture structure of hex_7seg
 
-# End time: 16:58:55 on Nov 09,2019, Elapsed time: 0:00:02
+# End time: 20:51:09 on Nov 11,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:58:55 on Nov 09,2019
+# Start time: 20:51:09 on Nov 11,2019
 # vcom -work work Waveform.vwf.vht 
 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
-
 # -- Loading package std_logic_1164
 # -- Compiling entity hex_7seg_vhd_vec_tst
 # -- Compiling architecture hex_7seg_arch of hex_7seg_vhd_vec_tst
 
-# End time: 16:58:56 on Nov 09,2019, Elapsed time: 0:00:01
+# End time: 20:51:09 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.hex_7seg_vhd_vec_tst 
-# Start time: 16:59:00 on Nov 09,2019
+# Start time: 20:51:14 on Nov 11,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -128,13 +128,14 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading cycloneive.cycloneive_atom_pack(body)
 # Loading cycloneive.cycloneive_components
 # Loading work.hex_7seg(structure)
+# Loading work.hard_block(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
 # Loading cycloneive.cycloneive_io_ibuf(arch)
 # Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
-# after#29
+# after#33
 
-# End time: 16:59:02 on Nov 09,2019, Elapsed time: 0:00:02
+# End time: 20:51:16 on Nov 11,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
@@ -147,7 +148,7 @@ Reading C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Ativid
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/simulation/qsim/hex_7seg_20191109165903.sim.vwf
+Writing the resulting VWF to C:/Users/Usuario/Documents/Quarto_semestre/Circuitos_logicos/VHDL/Atividade2_1/simulation/qsim/hex_7seg_20191111205117.sim.vwf
 
 Finished VCD to VWF conversion.
 
